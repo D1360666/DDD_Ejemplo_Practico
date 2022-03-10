@@ -32,5 +32,9 @@ public class AddedStudent extends DomainEvent {
     public DateOfBirth getDateOfBirth(){
         return dateOfBirth;
     }
+
+    public StudentIdentity getStudentIdentity(){
+        return studentIdentity;
+    }
 }
 
